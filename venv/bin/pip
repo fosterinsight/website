@@ -1,4 +1,4 @@
-#!/Users/zehrakorkusuz/PycharmProjects/flaskProject/venv/bin/python
+#!/Users/zehrakorkusuz/PycharmProjects/website/venv/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys

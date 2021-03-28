@@ -22,16 +22,16 @@
 
 <!--#NAVBAR-->
 <div class="container">
-<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top;" style="background-color: transparent !important; font-family: Comfortaa;">
-    <a class="navbar-brand" href="#">Foster<br style="margin: 10px 0;">500</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+<nav class="navbar navbar-expand-lg sticky-top navbar-light navbar-f">
+    <a class="navbar-brand" href="/">Foster<br style="margin: 10px 0;">500</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent" style="padding: 5px 5px 5px 5px ">
-        <ul class="navbar-nav mr-auto" style="padding: 25px 10px 25px 10px;">
+     <!--   <ul class="navbar-nav mr-auto" style="padding: 25px 10px 25px 10px;">
             <li class="nav-item active" style="padding: 0 5px;">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item" style="padding: 0 5px;">
                 <a class="nav-link" href="#">Services</a>
@@ -48,7 +48,7 @@
             <li style="padding: 0 5px;">
                 <a class="nav-link" href="#">FAQ</a>
             </li>
-        </ul>
+        </ul> -->
         <ul class="nav navbar-nav ml-auto" style="margin: 25px 20px">
             <a href="#" class="nav-link"><i class="fa fa-camera-retro fa-lg"></i></a>
             <li>
@@ -57,47 +57,47 @@
                 <a href="#" class="nav-link"><i class="fa fa-pinterest fa-lg"></i></a>
             </li>
         </ul>
-        <form class="form-inline my-2 my-lg-0" style="margin: -25px 5px;">
+        <form class="form-inline my-2 my-lg-0" style="margin: -25px 5px;" method="POST" action="#contact">
             <button class="btn btn-outline-dark my-2 my-sm-0" type="submit" style="border-radius: 35px; padding: 10px 18px;">Contact</button>
         </form>
     </div>
 </nav>
 </div>
-
-<div class="container" style="display: flex; justify-content: center;">
-    <div class="row hero_text">
-        <div class="col" style="margin:40px">
+<!--#HERO Section-->
+<div class="container" style="justify-content: center;">
+    <div class="row">
+    <div class="d-flex row hero_text" style="display:flex; flex-wrap:wrap;">
+        <div class="col-sm" style="margin:40px">
             <div class="row">
                 <div class="col mini-box" style="padding: 5px 0 5px 0;"><h1 style="font-family: Comfortaa; color: #0038FF">Data Scientist as a Service</h1></div>
             </div>
             <div class="row">
                 <div class="col mini-box" style="padding: 5px 0 5px 0;">
-                <h4>We believe non-technical founders can build great tech companies!</h4>
-                <p>Analytics services for venture-backed startups</p>
+                <h3>We believe non-technical founders can build great tech companies!</h3>
+                <h5>Analytics services for venture-backed startups</h5>
                 </div>
             </div>
             <div class="row">
-                <div class="col mini-box" style="padding: 20px 0 20px 0;">
-                    <form class="form-inline my-2 my-lg-0" style="margin: -25px 5px;">
+                <div class="col-sm mini-box" style="padding: 20px 0 20px 0;">
+                    <form class="form-inline my-2 my-lg-0" style="margin: -25px 5px;" method="POST" action="#contact">
                         <button class="btn btn-outline-dark my-2 my-sm-0" type="submit" style="border-radius: 35px; padding: 10px 18px;">Let's Talk</button>
                     </form>
                 </div>
             </div>
         </div>
         <div class="col big-box">
-            <img class="hero_img hoverImages" style="max-width: 100%; max-height: 100%;" src="static/img/hero2.png" alt="Hero">
+            <img class="hero_img hoverImages" style="position: absolute;max-width: 100%; max-height: 100%;" src="static/img/hero2.png" alt="Hero">
         </div>
 
-    </div>
+    </div> </div>
 </div>
 
-<div style="margin: -25px -25px -25px -25px; padding: 0 0 0 0;">
-
-        <div style="border: 5px solid #0038ff;background-color: #0038ff; transform: matrix(0.97, -0.25, 0.24, 0.97, 0, 0); z-index: -1; width: 100%; position: relative;">
+<div style="margin: -45px 0px -45px -45px; padding: 0 0 0 0;">
+    <div style="border: 15px solid #0038ff;background-color: #0038ff; transform: matrix(0.97, -0.25, 0.24, 0.97, 0, 0); z-index: -1; width: 150%; position: relative;">
     </div>
 </div>
 </br></br></br></br></br>
-    <!--SERVICES-->
+    <!--SERVICES
 <div>
     <div class="container justify-content-center"><h1 style="text-align: center; margin: 20px 20px 20px 20px;">Services</h1>
         <p style="text-align: center;" >We offer services and consultancy while helping you develop in-house data science excellence</p>
@@ -135,23 +135,77 @@
                         <img style="width: 300px; height: 205px; margin: 40px 40px;" src="static/img/g3.png">
                     </div>
                 </div></div>
-            </div></div></div></div>
+            </div></div></div></div> -->
 
-
+<div class="container" style="position: relative;padding-top: 10%;">
+  <div class="container justify-content-center"><h1 style="text-align: center; margin: 20px 20px 20px 20px;">Services</h1>
+        <h5 style="text-align: center; margin-bottom: 40px;" >We offer analytics services while helping you develop in-house data science excellence</h5>
+  </div>
+  <div class="row">
+    <div class="col-md-4">
+      <div class="card card-1">
+        <h3>Data Pipelines</h3>
+        <p>High-performing data pipelines to automate processes from data collection to predictions with
+            bias-conscious ethical design complying with GDPR</p>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card card-2">
+        <h3>Predictive Analytics</h3>
+        <p>Predict the best course of action to achieve organizational goals like cost reduction, customer satisfaction, profitability</p>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card card-3">
+        <h3>Natural Language Processing</h3>
+        <p>Convert your unstructured data into actionable insights with NLP techniques.
+            Chatbots, Q&As, sentiments analysis, and in-depth survey insights. </p>
+      </div>
+    </div>
+  </div>
+    </br>
+   <div class="row">
+    <div class="col-md-4">
+      <div class="card card-3">
+        <h3>Big Data</h3>
+        <p>Analyze your industry and competitors from the discussions on the forums and social media to
+            discover the potential for new features and identify the room for improvement</p>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card card-1">
+        <h3>Marketing & Sales Analytics</h3>
+        <p>Identify the key drivers of performance. Leverage customer digital footprint to launch effective campaigns, enhance customer engagement, retention, and product recommendations</p>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card card-2">
+        <h3>Social Network Analysis</h3>
+        <p>Delve into the anatomy of cultural fads and trends—offline phenomena often mediated by Twitter and Facebook</p>
+      </div>
+    </div>
+  </div>
+</div>
 
 
 
             <!--CUSTOMER LOGOS-->
             <div class="container">
                 <div><h1 style="text-align: center; margin: 60px 20px">Some incredible companies we work with</h1></div>
-                <div class="d-flex justify-content-center" style="margin: 40px 40px;">
-                    <div style="padding: 10px 10px"><img style="max-width: 90px; max-height: 90px;" src="static/img/logo_geometry.png"></div>
-                    <div style="padding: 10px 10px"><img style="max-width: 90px; max-height: 90px;" src="static/img/logo_rez.png"></div>
-                    <div style="padding: 10px 10px"><img style="max-width: 90px; max-height: 90px;" src="static/img/Bigg.jpg"></div>
-                    <div style="padding: 10px 10px"><img style="max-width: 90px; max-height: 90px;" src="static/img/km_logo1.png"></div>
-                    <div style="padding: 10px 10px"><img style="max-width: 90px; max-height: 90px;" src="static/img/odtü_logo.jpg"></div>
+                <div class="d-flex justify-content-center" style="display:flex; flex-wrap:wrap;margin: 20px 20px;">
+                    <div style="padding: 10px 10px"><img style="max-width: 150px;max-height: 90px;" src="static/img/logo_geometry.png"></div>
+                    <div style="padding: 10px 10px"><img style="max-width: 150px;; max-height: 90px;" src="static/img/timteb.jpg"></div>
+                    <div style="padding: 10px 10px"><img style="max-width: 150px;max-height: 90px;" src="static/img/goldmans.jpg"></div>
+                    <div style="padding: 10px 10px"><img style="max-width: 150px;max-height: 90px;" src="static/img/logo_rez.png"></div>
+                    <div style="padding: 10px 10px"><img style="max-width: 150px;max-height: 90px;" src="static/img/bigg.svg"></div>
+                    <div style="padding: 10px 10px"><img style="max-width: 150px;max-height: 90px;" src="static/img/km_logo1.png"></div>
+                    <div style="padding: 10px 10px"><img style="max-width: 150px;max-height: 90px;" src="static/img/odtü_logo.jpg"></div>
+                    <div style="padding: 10px 10px"><img style="max-width: 150px;max-height: 90px;" src="static/img/yfyi.png"></div>
+                    <div style="padding: 10px 10px"><img style="max-width: 150px;max-height: 90px;" src="static/img/ünlüco.jpg"></div>
                 </div>
             </div>
+
+
 
             <!--FAQs-->
             <div class="container">
@@ -248,6 +302,55 @@
                     </div>
                 </div>
             </div>
+
+
+<div>
+    <div class="container justify-content-center" id="contact"><h1 style="text-align: center; margin: 20px 20px 20px 20px;">We’d love to hear from you</h1>
+        <p style="text-align: center; color: #0038FF;" >Get in touch and let us know how we can help</p>
+    </div>
+    <div class="d-flex flex-column">
+        <div style="text-align: center;">
+            <div class="container">
+                <div class="row">
+                    <div class="col" style="padding-left: 10%">
+                        </br>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3060.4521640432895!2d32.747668550618585!3d39.90889629419118!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14d347eb83c08733%3A0xacbd2e34848a72e4!2sCoZone!5e0!3m2!1sen!2str!4v1616859790408!5m2!1sen!2str" width="450" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                        <p style="text-align: right; padding: 0 15px;">Mustafa Kemal Mah. Dumlupınar Blv. 280 G-1260 Çankaya/Ankara, Turkey</p>
+                        <p style="text-align: right; padding: 0 15px;">+44 992312321312</p>
+                        <p style="text-align: right; padding: 0 15px;">info@foster500.com</p>
+
+
+                    </div>
+                    <div class="col"  style="text-align: left; margin-top: 30px; margin-bottom: 50px;">
+
+                        <form>
+                          <div class="form-group">
+                              <label>Name</label>
+                              <input type="text" class="form-control" placeholder="First name">
+                          </div>
+
+                          <div class="form-group">
+                              <label>Company</label>
+                              <input type="text" class="form-control" placeholder="Company">
+                          </div>
+
+                          <div class="form-group">
+                              <label for="inputEmail4">Email</label>
+                              <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                          </div>
+
+                          <div class="form-group">
+                              <label for="exampleFormControlTextarea1">Your message</label>
+                              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                          </div>
+
+            <button class="btn btn-outline-dark my-2 my-sm-0" type="submit" style="border-radius: 35px; padding: 10px 18px;">SEND</button>
+                        </form>
+                    </div>
+                </div>
+         </div>
+
+</div></div></div>
             <!--FOOTER-->
 
 
@@ -259,8 +362,11 @@
                         <div class="col-4" style="display: block;margin-top: 5%; margin-left: auto; margin-right: auto;width: 40%;">
                             <form>  <div class="form-group">
                                 <label for="exampleInputEmail1" style="color:white">Subscribe to receive tips on how to scale up your startup with data-driven decisions</label>
-                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="info@foster500.com">
                                 <small id="emailHelp" class="form-text text-muted">Some explanation here.</small>
+                                                    <form class="form-inline my-2 my-lg-0" style="margin: -25px 5px;">
+                        <button class="btn btn-outline-dark my-2 my-sm-0" type="submit" style="border-radius: 35px; padding: 10px 18px;">Let's Talk</button>
+                    </form>
                             </div></form>
 
                         </div>
@@ -275,7 +381,7 @@
                                 </button>
 
                                 <div class="collapse navbar-collapse" style="justify-content: center; margin-top: -35px" id="navbarSupportedContent">
-                                    <ul class="navbar-nav">
+                             <!--       <ul class="navbar-nav">
                                         <li class="nav-item active">
                                             <a class="nav-link" href="#">Home</a>
                                         </li>
@@ -294,7 +400,7 @@
                                         <li>
                                             <a class="nav-link" href="#">FAQ</a>
                                         </li>
-                                    </ul>
+                                    </ul>-->
                                 </div>
                                 <div><ul class="nav navbar-nav" style="justify-content: center; margin-top: -35px">
                                     <a href="#" class="nav-link"><i class="fa fa-camera-retro fa-lg"></i></a>
@@ -303,7 +409,7 @@
                                     <li>
                                         <a href="#" class="nav-link"><i class="fa fa-pinterest fa-lg"></i></a>
                                     </li>
-                                </ul></div>
+                                </ul> </div>
                             </nav>
                         </div>
                     </div>
@@ -318,6 +424,9 @@
            <li class="list-inline-item"><a href="#privacy"><p style="margin-bottom: 0px; text-decoration: underline; color: white;"> Privacy Policy</p></a></li>
         </ul>
     </div>
+
+
+
 
 </footer>
 
